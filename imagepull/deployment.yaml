@@ -18,6 +18,6 @@ spec:
         image: parthmodi4659/test1:latest
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 8085
       imagePullSecrets:
       - name: dockersecret
